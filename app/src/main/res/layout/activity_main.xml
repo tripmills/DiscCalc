@@ -7,8 +7,22 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/inputValue"
-        android:hint="Enter value"
+        android:id="@+id/shotweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shot Weight in Grams"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/additiveratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Additive Ratio in %"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/recoverytime"
+        android:hint="Recovery Time in Seconds"
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

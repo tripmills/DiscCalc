@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val inputValue = findViewById<EditText>(R.id.inputValue)
+        val shotweight = findViewById<EditText>(R.id.shotweight)
+        val additiveratio = findViewById<EditText>(R.id.additiveratio)
+        val recovertime = findViewById<EditText>(R.id.recoverytime)
         val calcButton = findViewById<Button>(R.id.calcButton)
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
@@ -23,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
 
         calcButton.setOnClickListener {
-            val input = inputValue.text.toString().toDoubleOrNull()
+            val input = shotweight.text.toString().toDoubleOrNull()
             if (input != null) {
                 val results = generateResults(input)
                 adapter.updateData(results)
