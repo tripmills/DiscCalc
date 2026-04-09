@@ -10,6 +10,7 @@ class ResultAdapter(private var items: List<ResultItem>) :
     RecyclerView.Adapter<ResultAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val toplabel: TextView = view.findViewById(R.id.toplabel)
         val label: TextView = view.findViewById(R.id.label)
         val value: TextView = view.findViewById(R.id.value)
     }
@@ -21,6 +22,7 @@ class ResultAdapter(private var items: List<ResultItem>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.toplabel.text = items[position].toplabel
         holder.label.text = items[position].label
         holder.value.text = items[position].value
     }
