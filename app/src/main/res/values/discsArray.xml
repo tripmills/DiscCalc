@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="discs">
+        <item>60 Pocket - Low Rate-(2 mm)*</item>
+        <item>60 Pocket - Standard (5 mm)*</item>
+        <item>40 Pocket (5 mm)</item>
+        <item>24 Pocket (5 mm)</item>
+        <item>15 Pocket (5 mm)</item>
+        <item>15 Pocket (9 mm)</item>
+        <item>12 Pocket (9 mm)</item>
+        <item>8 Pocket (8.5 mm)</item>
+        <item>12 Pocket (9 mm) - High Speed</item>
+        <item>8 Pocket (8.5 mm) - High Speed</item>
+    </string-array>
+
+    <string-array name="discVals">
+        <item>1.2</item>
+        <item>2.4</item>
+        <item>4.8</item>
+        <item>9</item>
+        <item>15</item>
+        <item>30</item>
+        <item>75</item>
+        <item>120</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+</resources>
