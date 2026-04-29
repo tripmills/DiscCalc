@@ -14,15 +14,15 @@
     </string-array>
 
     <string-array name="discVals">
-        <item>1.2</item>
-        <item>2.4</item>
-        <item>4.8</item>
-        <item>9</item>
-        <item>15</item>
-        <item>30</item>
-        <item>75</item>
-        <item>120</item>
-        <item>1</item>
-        <item>1</item>
+        <item>1.20</item>
+        <item>2.40</item>
+        <item>4.80</item>
+        <item>9.00</item>
+        <item>15.00</item>
+        <item>30.00</item>
+        <item>75.00</item>
+        <item>120.00</item>
+        <item>1.00</item>
+        <item>1.00</item>
     </string-array>
 </resources>
