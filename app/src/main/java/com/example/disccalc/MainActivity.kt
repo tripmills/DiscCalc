@@ -135,12 +135,7 @@ class MainActivity : AppCompatActivity() {
                 //col2.setBackgroundColor(Color.CYAN)
             }
 
-            val textView = TextView(this)
-            textView.text = col2.text
-            textView.setTextColor(Color.RED)
-
-            row.addView(textView)
-            //row.addView(col2)
+            row.addView(col2)
 
             val col3:TextView
             val calcspeed:Double
